@@ -5,18 +5,19 @@
 
 .calendar_style{
     display: flex;
+}
+
+tbody{
+    display: block;
     justify-content: center;
 }
 
 tr {
     width: 1000px;
     height: 30px;
-    display: flex;
-    justify-content: space-between;
+    margin: auto;
     border-bottom: 1px solid black;
-}
-
-td, th {
+    display: flex;
     justify-content: center;
 }
 
@@ -25,11 +26,6 @@ td, th {
     width: 140px;
     display: block;
     text-align: left;
-}
-
-
-.workout_per_day_container {
-    display: block;
 }
 
 .my_workout_form {
@@ -59,4 +55,13 @@ select {
     height: 25px;
     border: 2px solid rgb(81, 87, 101); 
     border-radius: 8px;
+}
+
+.workout_per_day_style {
+    width: 120px;
+}
+
+#testing {
+    display: flex;
+    justify-content: space-between;
 }
